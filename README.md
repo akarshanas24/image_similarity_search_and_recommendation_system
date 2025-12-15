@@ -1,4 +1,5 @@
 AI Image Similarity Search and Recommendation System
+
 An AI-powered image similarity search and recommendation system that learns visual embeddings with a triplet-loss CNN and serves fast nearest-neighbor queries using a FAISS index.​​
 
 Features
