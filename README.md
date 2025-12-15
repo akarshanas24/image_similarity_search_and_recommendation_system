@@ -1,4 +1,4 @@
-🎯 AI Image Similarity Search & Recommendation System
+ AI Image Similarity Search & Recommendation System
 
 An AI-powered system to find and recommend visually similar images using triplet-loss CNN embeddings and FAISS for fast nearest-neighbor search.
 
@@ -14,6 +14,7 @@ Offline embedding generation and FAISS index for scalable similarity search.
 Command-line interface to train, build index, and query images.
 
 🛠️ Project Structure
+
 train/                  # Training images
 validation/             # Validation images
 models/                 # Saved model checkpoints
@@ -27,6 +28,7 @@ check_faiss_index.py    # Index verification
 test_model.py           # Query similar images
 
 ⚡ Installation
+
 git clone https://github.com/<your-username>/image_similarity_search_and_recommendation_system.git
 cd image_similarity_search_and_recommendation_system
 
@@ -38,6 +40,7 @@ pip install -r requirements.txt
 Dependencies: torch, torchvision, faiss-cpu/faiss-gpu, numpy, Pillow, tqdm
 
 🖼️ Usage
+
 1️⃣ Prepare Data
 
 Place images in train/ and validation/.
