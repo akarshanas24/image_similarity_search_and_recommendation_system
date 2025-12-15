@@ -1,3 +1,8 @@
+ HEAD
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
+
+# Auto detect text files and perform LF normalization
+* text=auto
+eee271b0b366ac8dc8409b667d7a7762ccfe0dd2
