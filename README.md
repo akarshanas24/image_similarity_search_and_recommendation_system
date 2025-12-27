@@ -29,7 +29,7 @@ test_model.py           # Query similar images
 
 ⚡ Installation
 
-git clone https://github.com/<your-username>/image_similarity_search_and_recommendation_system.git
+git clone https://github.com/akarshanas24/image_similarity_search_and_recommendation_system.git
 cd image_similarity_search_and_recommendation_system
 
 python -m venv venv
